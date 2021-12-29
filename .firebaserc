@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "angular-tic-tac-toe-874b9": {
+      "hosting": {
+        "Angular-Tic-Tac-Toe": [
+          "angular-tic-tac-toe-874b9"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "angular-tic-tac-toe-874b9"
+  }
+}
