@@ -1,5 +1,9 @@
 # Angular Tic-Tac-Toe PWA app
 
+Game Demo:
+
+https://user-images.githubusercontent.com/78561671/147779998-ea2c0ed1-5b51-411b-85d5-603c7741d44f.mp4
+
 You can test the app [here](https://angular-tic-tac-toe-874b9.firebaseapp.com/) <br />
 And even install it to your desktop from the same page like so:
 
