@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-board',
@@ -10,6 +10,7 @@ export class BoardComponent implements OnInit {
   squares!: any[];
   xIsNext!: boolean;
   winner!: any;
+  @Input() winnerColor?: string;
 
   constructor() { }
 
@@ -33,6 +34,12 @@ export class BoardComponent implements OnInit {
       this.xIsNext = !this.xIsNext;
     }
     this.winner = this.calculateWinner();
+    if (this.winner == 'X'){
+      this.winnerColor = "#05D890";
+    } 
+    if (this.winner == 'O'){
+      this.winnerColor = "#0A98FF";
+    }
   }
 
   calculateWinner(){
